@@ -83,18 +83,8 @@ The set of emotions we are trying to predict are the following :
 
 Since the input data is centered around the face, making a live prediction requires :
 - identifying the faces
-- then, for each face :
-  - zoom on it
+- then, for each face:
+  - zoom in on it
   - apply grayscale
   - reduce dimension to match input data
 
-The face identification is done using a pre-trained Histogram of Oriented Gradients model. For further information, check the following article :
-https://maelfabien.github.io/tutorials/face-detection/#b-the-integral-image
-
-The treatment of the image is done through OpenCV
-
-*1. Read the initial image*
-
-*2. Apply gray filter and find faces*
-
-*3. Zoom and rescale each image*
