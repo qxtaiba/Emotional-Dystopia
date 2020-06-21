@@ -57,7 +57,7 @@ The model we have chosen is an **XCeption** model. The model was tuned with:
 
 To learn more about the **XCeption** model, check this article : https://maelfabien.github.io/deeplearning/xception/
 
-## Performance
+## Predictors
 
 The set of emotions we are trying to predict are the following :
 - Happiness
