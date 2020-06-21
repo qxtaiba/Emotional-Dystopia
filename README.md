@@ -39,15 +39,15 @@ Among the notebooks, the role of each notebook is the following :
 
 The video processing pipeline was built the following way :
 - Launch the webcam
-- Identify the face by Histogram of Oriented Gradients
-- Zoom on the face
-- Dimension the face to 48 * 48 pixels
-- Make a prediction on the face using our pre-trained model
-- Also identify the number of blinks on the facial landmarks on each picture
+- Identify the face using a Histogram of Oriented Gradients
+- Zoom in on the face
+- Scale the face to 48 * 48 pixels
+- Make a prediction on the face using a pre-trained model
+- Identify the number of blinks on the facial landmarks on each picture
 
 #### Model
 
-The model we have chosen is an **XCeption** model, since it outperformed the other approaches we developed so far. We tuned the model with :
+The model we have chosen is an **XCeption** model, since it outperformed the other approaches developed so far. The model was tuned with:
 - Data augmentation
 - Early stopping
 - Decreasing learning rate on plateau
@@ -55,14 +55,7 @@ The model we have chosen is an **XCeption** model, since it outperformed the oth
 - Class weight balancing
 - And kept the best model
 
-As you might have understood, the aim was to limit overfitting as much as possible in order to obtain a robust model.
-
-- To know more on how we prevented overfitting, check this article : https://maelfabien.github.io/deeplearning/regu/
-- To know more on the **XCeption** model, check this article : https://maelfabien.github.io/deeplearning/xception/
-
-The XCeption architecture is based on DepthWise Separable convolutions that allow to train much fewer parameters, and therefore reduce training time on Colab's GPUs to less than 90 minutes.
-
-When it comes to applying CNNs in real life application, being able to explain the results is a great challenge. We can indeed  plot class activation maps, which display the pixels that have been activated by the last convolution layer. We notice how the pixels are being activated differently depending on the emotion being labeled. The happiness seems to depend on the pixels linked to the eyes and mouth, whereas the sadness or the anger seem for example to be more related to the eyebrows.
+- To learn more about the **XCeption** model, check this article : https://maelfabien.github.io/deeplearning/xception/
 
 ## Performance
 
