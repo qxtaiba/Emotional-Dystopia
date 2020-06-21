@@ -47,7 +47,7 @@ The video processing pipeline was built the following way :
 
 #### Model
 
-The model we have chosen is an **XCeption** model, since it outperformed the other approaches developed so far. The model was tuned with:
+The model we have chosen is an **XCeption** model. The model was tuned with:
 - Data augmentation
 - Early stopping
 - Decreasing learning rate on plateau
