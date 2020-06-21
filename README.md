@@ -1,7 +1,3 @@
-# Feature-Detection
-
-Facial landmark detection in realtime using OpenCV, Python, and dlib.
-
 ## Data
 
 The data set used for training is the **Kaggle FER2013** emotion recognition data set : https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
