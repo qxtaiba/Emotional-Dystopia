@@ -55,7 +55,7 @@ The model we have chosen is an **XCeption** model. The model was tuned with:
 - Class weight balancing
 - And kept the best model
 
-- To learn more about the **XCeption** model, check this article : https://maelfabien.github.io/deeplearning/xception/
+To learn more about the **XCeption** model, check this article : https://maelfabien.github.io/deeplearning/xception/
 
 ## Performance
 
