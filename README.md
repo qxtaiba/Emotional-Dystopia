@@ -55,11 +55,11 @@ The model we have chosen is an **XCeption** model. The model was tuned with:
 - Class weight balancing
 - And kept the best model
 
-To learn more about the **XCeption** model, check this article : https://maelfabien.github.io/deeplearning/xception/
+To learn more about the **XCeption** model, check this article: https://maelfabien.github.io/deeplearning/xception/
 
 ## Predictors
 
-The set of emotions we are trying to predict are the following :
+The set of emotions we are trying to predict are the following:
 - Happiness
 - Sadness
 - Fear
@@ -67,3 +67,17 @@ The set of emotions we are trying to predict are the following :
 - Surprise
 - Neutral
 - Anger
+
+## Sources 
+
+## Sources
+
+- Visualization: https://github.com/JostineHo/mememoji/blob/master/data_visualization.ipynb
+- State of the art Architecture: https://github.com/amineHorseman/facial-expression-recognition-using-cnn
+- Eyes Tracking: https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/
+- Face Alignment: https://www.pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/
+- A Brief Review of Facial Emotion Recognition Based on Visual Information: https://www.mdpi.com/1424-8220/18/2/401/pdf
+- Going deeper in facial expression recognition using deep neural networks: https://ieeexplore.ieee.org/document/7477450
+- Emotional Deep Alignment Network paper: https://arxiv.org/abs/1810.10529
+- Emotional Deep Alignment Network github: https://github.com/IvonaTau/emotionaldan
+- HOG, Landmarks and SVM: https://github.com/amineHorseman/facial-expression-recognition-svm
