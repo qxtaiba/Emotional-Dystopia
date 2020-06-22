@@ -68,8 +68,6 @@ The set of emotions we are trying to predict are the following:
 - Neutral
 - Anger
 
-## Sources 
-
 ## Sources
 
 - Visualization: https://github.com/JostineHo/mememoji/blob/master/data_visualization.ipynb
