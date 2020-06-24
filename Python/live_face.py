@@ -53,7 +53,7 @@ def show_webcam() :
         #Cascade classifier pre-trained model
         cascPath = 'Models/face_landmarks.dat'
         faceCascade = cv2.CascadeClassifier(cascPath)
-        
+        print("111", frame)
         #BGR -> Gray conversion
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         
@@ -116,7 +116,7 @@ def show_webcam() :
     predictor_landmarks  = dlib.shape_predictor("Models/face_landmarks.dat")
     
     #Lancer la capture video
-    video_capture = cv2.VideoCapture(0)
+    video_capture = cv2.VideoCapture(1)
 
     while True:
         # Capture frame-by-frame
